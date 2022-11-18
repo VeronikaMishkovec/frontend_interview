@@ -1,8 +1,8 @@
-import style from './style.module.scss'
+import { LABELS } from "../constants/labels";
 
 const Home = () => {
   return (
-    <h1 className={style.h1}>{'Home'}</h1>
+    <div>{LABELS.WELCOME}</div>
   )
 }
 
