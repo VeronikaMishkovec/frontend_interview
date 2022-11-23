@@ -1,3 +1,3 @@
 export enum COLORS {
-  HOWKES_BLUE = '#C9D5FD'
+  GOLDEN_YELLOW = '#0D2DA2'
 }

@@ -1,0 +1,17 @@
+.container {
+  //background-color: #FFE901;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .loginButton {
+    background-color: #0D2DA2;
+  }
+
+  .registrationButton {
+    background-color: #4F93FE;
+    margin-left: 15px;
+  }
+}
