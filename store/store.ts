@@ -12,6 +12,7 @@ export const store = createStore(rootReducer, composeWithDevTools(applyMiddlewar
 export type RootState = ReturnType<typeof store.getState>
 export type AppDispatch = typeof store.dispatch
 const makeStore = () => store;
+// @ts-ignore
 export const wrapper = createWrapper<RootState>(makeStore);
 
 saga.run(rootSaga);
