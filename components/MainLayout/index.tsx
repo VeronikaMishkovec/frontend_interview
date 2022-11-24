@@ -8,16 +8,16 @@ export const MainLayout = ({ children, isRegistrationPage }:MainLayoutType) => {
   return (
     <div>
       <header className={style.container}>
-        {/*<Button variant="contained" className={style.loginButton}>{'Login'}</Button>*/}
-        {!isRegistrationPage &&
-          <Link href="/registration">
+        {isRegistrationPage ? (<Link href='/login'>
+          <Button variant='contained' className={style.loginButton}>{'Login'}</Button>
+        </Link> ): (<Link href="/registration">
             <Button
               variant='contained'
               className={style.registrationButton}
             >
               {'Registration'}
             </Button>
-          </Link>
+          </Link>)
         }
       </header>
       {children}
