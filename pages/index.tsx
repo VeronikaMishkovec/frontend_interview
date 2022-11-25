@@ -1,6 +1,6 @@
+import { MainLayout } from '../components/MainLayout'
 import { LABELS } from "../constants/labels";
 import styles from '../styles/home.module.scss';
-import { MainLayout } from '../components/MainLayout'
 
 const Home = () => {
   return (

@@ -1,8 +1,9 @@
-import React from 'react'
-import { MainLayoutType } from './types'
-import style from './mainlayout.module.scss'
 import { Button } from '@mui/material'
 import Link from 'next/link'
+import React from 'react'
+
+import style from './mainlayout.module.scss'
+import { MainLayoutType } from './types'
 
 export const MainLayout = ({ children, isRegistrationPage }:MainLayoutType) => {
   return (

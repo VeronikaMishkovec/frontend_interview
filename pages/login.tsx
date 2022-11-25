@@ -1,9 +1,10 @@
-import { MainLayout } from '../components/MainLayout'
 import { Button, TextField } from '@mui/material'
-import style from '../styles/registration.module.scss'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
+
+import { MainLayout } from '../components/MainLayout'
 import { loginRequestAction } from '../store/reducers/authReducer'
+import style from '../styles/registration.module.scss'
 
 const Login = () => {
   const [email, setEmail] = useState('');

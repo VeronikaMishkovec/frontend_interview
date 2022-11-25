@@ -1,6 +1,8 @@
 import '../styles/global.css'
-import { store, wrapper } from '../store/store'
+
 import { Provider } from 'react-redux'
+
+import { store, wrapper } from '../store/store'
 
 // eslint-disable-next-line react/prop-types
  function MyApp({ Component, pageProps }) {

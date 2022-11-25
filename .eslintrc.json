@@ -1,6 +1,10 @@
 {
   "extends":[ "next/core-web-vitals", "plugin:react/recommended"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
-  }
+    "react/react-in-jsx-scope": "off",
+    "@next/next/no-html-link-for-pages": ["error", "packages/my-app/pages/"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  },
+  "plugins": ["simple-import-sort"]
 }
