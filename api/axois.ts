@@ -8,7 +8,7 @@ export const METHOD_DELETE = 'delete';
 // export const baseURL = 'http://localhost:5001';
 // export const baseURL = 'http://192.168.0.9:5001';
 // export const baseURL = 'https://learnandrepeate.herokuapp.com/'
-export const baseURL = 'https://interview-alpha.vercel.app/';
+export const baseURL = 'https://interview-alpha.vercel.app';
 
 const request = (
   path: string,

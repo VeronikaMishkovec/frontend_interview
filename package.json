@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^5.44.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.31.10",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
