@@ -15,7 +15,7 @@ const Home = ({ list }: MainType['category']) => {
         <div className={styles.categoryListContainer}>
           {list.map((category: CategoryType) => {
             return (
-              <div className={styles.categoryContainer}>
+              <div className={styles.categoryContainer} key={category._id}>
                 <img alt={''} src={category.img}/>
                 <div>{category.title}</div>
               </div>
