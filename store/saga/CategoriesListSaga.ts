@@ -3,7 +3,6 @@ import { call, put, takeLatest } from '@redux-saga/core/effects'
 import { categoriesListRequest } from '../../api/categoriesRequests'
 import {
   categoriesListRequestAction,
-  categoriesListSuccessAction,
   CategoryReducerType,
 } from '../reducers/categoryReducer'
 

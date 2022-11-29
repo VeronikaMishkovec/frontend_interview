@@ -22,7 +22,6 @@ export const categorySlice = createSlice({
 
 export const {
   categoriesListRequestAction,
-  // categoriesListSuccessAction
 } = categorySlice.actions
 
 export default categorySlice.reducer
