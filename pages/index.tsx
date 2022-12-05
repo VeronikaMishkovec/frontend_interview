@@ -24,14 +24,3 @@ const Home = ({ list }: MainType['category']) => {
   )
 }
 export default Home
-
-// export async function getStaticProps() {
-//   // const res = await fetchHelper(API.CATEGORIES_LIST, METHOD_POST)
-//   // const data = await res.json()
-//
-//   return {
-//     props: {
-//       list: data
-//     }
-//   }
-// }
