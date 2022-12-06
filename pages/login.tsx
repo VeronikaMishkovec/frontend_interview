@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { Button, TextField } from '@mui/material'
+import { useRouter } from 'next/router'
 
 import { MainLayout } from '../components/MainLayout'
 
 import style from '../styles/registration.module.scss'
-import { useRouter } from 'next/router'
 
 const Login = () => {
   const [email, setEmail] = useState('');
