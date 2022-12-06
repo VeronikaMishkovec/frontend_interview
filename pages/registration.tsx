@@ -10,7 +10,7 @@ const Registration = () => {
   const [password, setPassword] = useState('');
 
   return (
-    <MainLayout isRegistrationPage={true}>
+    <MainLayout isHomePage={true} isRegistrationPage={true}>
       <div className={style.container}>
         <div className={style.pageHeader}>{'Registration'}</div>
         <TextField className={style.inputs} id="outlined-basic" label="Email" value={email} variant="outlined" onChange={(e) => setEmail(e.target.value)} />

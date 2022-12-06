@@ -5,7 +5,7 @@ import styles from '../styles/home.module.scss';
 
 const Home = () => {
   return (
-    <MainLayout isRegistrationPage={true}>
+    <MainLayout isHomePage={false} isRegistrationPage={true}>
       <div className={styles.container}>
         <div>{LABELS.WELCOME}</div>
       </div>

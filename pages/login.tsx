@@ -26,7 +26,7 @@ const Login = () => {
   }
 
   return (
-    <MainLayout isRegistrationPage={false}>
+    <MainLayout isHomePage={true} isRegistrationPage={false}>
       <div className={style.container}>
         <div className={style.pageHeader}>{'Login'}</div>
         <TextField className={style.inputs} id="outlined-basic" label="Email" value={email} variant="outlined" onChange={(e) => setEmail(e.target.value)} />
