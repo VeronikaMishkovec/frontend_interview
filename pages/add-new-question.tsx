@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import { Button, FormControlLabel, FormLabel, Radio, RadioGroup, TextField } from '@mui/material'
 
-import { CategoryType, MainType } from '../store/types'
-
-const AddNewQuestion = ({ list }: MainType['category']) => {
+const AddNewQuestion = ({ list }: any) => {
   const [multiline, setMultiline] = useState('');
 
   return(
@@ -15,7 +13,7 @@ const AddNewQuestion = ({ list }: MainType['category']) => {
         defaultValue="female"
         name="radio-buttons-group"
       >
-        {list?.map((category: CategoryType) => {
+        {list?.map((category: any) => {
           return (
             <FormControlLabel control={<Radio />} key={category._id} label={category.title} value={category.title} />
           )})}
