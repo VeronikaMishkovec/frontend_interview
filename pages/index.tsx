@@ -13,3 +13,16 @@ const Home = () => {
   )
 }
 export default Home
+
+// export async function getServerSideProps(context: any) {
+//   // res.setHeader(
+//   //   'Cache-Control',
+//   //   'public, s-maxage=10, stale-while-revalidate=59'
+//   // )
+//
+//   console.log(context)
+//
+//   return {
+//     props: {},
+//   }
+// }
